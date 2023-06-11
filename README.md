@@ -1,9 +1,10 @@
 # Robotic-Arm-Simulator
 
-A MATLAB code for simulating the movement of a three-link robotic arm in the working area defined by the arm paramters.
+A MATLAB code for simulating the movement of a planar three-link robotic arm inside the working area defined by the arm paramters.
 
 This project was part of a course in Mechanical Engineering, associated with Faculty of Engineering, Cairo University.
-## Deliverables
+
+## Description of modules
 * DKPM (Direct Kinematic Position Model): given the angles of the arm links, DKPM calculates its position in the XY plane.
 * IKPM (Inverse Kinematic Position Model): IKPM calculates if a particular position in the XY plane is reachable by the arm. 
   In other words, given a position (x,y), it finds if a solution (valid link angles) exists for this position.
